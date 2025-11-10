@@ -1,0 +1,7 @@
+services:
+  calc-limits:
+    build: .
+    volumes:
+      - ./:/app
+    ports:
+      - "5000:5000"
